@@ -4,7 +4,7 @@ import strip from '@rollup/plugin-strip';
 import cleanup from 'rollup-plugin-cleanup';
 
 export default {
-  input: './src/index.js',
+  input: './src/withRouter/index.js',
   plugins: [
     eslint(),
     minify(),
